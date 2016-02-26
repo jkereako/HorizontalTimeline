@@ -26,14 +26,14 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="GSl-U4-07t" userLabel="Layout">
                                                 <rect key="frame" x="0.0" y="0.0" width="600" height="96"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="siF-0d-f3n" userLabel="Step labels">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="siF-0d-f3n" userLabel="Step labels">
                                                         <rect key="frame" x="0.0" y="16" width="600" height="72"/>
                                                         <subviews>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="MRw-kO-Ocd" userLabel="Step 1">
-                                                                <rect key="frame" x="0.0" y="20" width="150" height="32"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="MRw-kO-Ocd" userLabel="Step 1">
+                                                                <rect key="frame" x="0.0" y="0.0" width="150" height="72"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PKI-03-sX8" customClass="CircleView" customModule="HorizontalTimeline" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="150" height="12"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="150" height="36"/>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                         <userDefinedRuntimeAttributes>
                                                                             <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
@@ -52,23 +52,23 @@
                                                                                 <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                             </userDefinedRuntimeAttribute>
                                                                             <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
-                                                                                <color key="value" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                             </userDefinedRuntimeAttribute>
                                                                         </userDefinedRuntimeAttributes>
                                                                     </view>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STEP 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="itz-1h-xwa" userLabel="Step 1">
-                                                                        <rect key="frame" x="0.0" y="20" width="150" height="12"/>
+                                                                        <rect key="frame" x="0.0" y="36" width="150" height="36"/>
                                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
                                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5iP-3h-sPk" userLabel="Step 2">
-                                                                <rect key="frame" x="150" y="20" width="150" height="32"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="5iP-3h-sPk" userLabel="Step 2">
+                                                                <rect key="frame" x="150" y="0.0" width="150" height="72"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TyT-ya-2ci" customClass="CircleView" customModule="HorizontalTimeline" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="150" height="12"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="150" height="36"/>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                         <userDefinedRuntimeAttributes>
                                                                             <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
@@ -87,23 +87,23 @@
                                                                                 <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                             </userDefinedRuntimeAttribute>
                                                                             <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
-                                                                                <color key="value" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                             </userDefinedRuntimeAttribute>
                                                                         </userDefinedRuntimeAttributes>
                                                                     </view>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STEP 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wVi-3M-4GU" userLabel="Step 1">
-                                                                        <rect key="frame" x="0.0" y="20" width="150" height="12"/>
+                                                                        <rect key="frame" x="0.0" y="36" width="150" height="36"/>
                                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
                                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="7co-Gz-lui" userLabel="Step 3">
-                                                                <rect key="frame" x="300" y="20" width="150" height="32"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="7co-Gz-lui" userLabel="Step 3">
+                                                                <rect key="frame" x="300" y="0.0" width="150" height="72"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u7g-Z6-EqI" customClass="CircleView" customModule="HorizontalTimeline" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="150" height="12"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="150" height="36"/>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                         <userDefinedRuntimeAttributes>
                                                                             <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
@@ -127,18 +127,18 @@
                                                                         </userDefinedRuntimeAttributes>
                                                                     </view>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STEP 3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ixo-od-uYv" userLabel="Step 1">
-                                                                        <rect key="frame" x="0.0" y="20" width="150" height="12"/>
+                                                                        <rect key="frame" x="0.0" y="36" width="150" height="36"/>
                                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
                                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="snN-Po-mnI" userLabel="Step 4">
-                                                                <rect key="frame" x="450" y="20" width="150" height="32"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="snN-Po-mnI" userLabel="Step 4">
+                                                                <rect key="frame" x="450" y="0.0" width="150" height="72"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tSY-dS-hs3" customClass="CircleView" customModule="HorizontalTimeline" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="150" height="12"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="150" height="36"/>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                         <userDefinedRuntimeAttributes>
                                                                             <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
@@ -162,7 +162,7 @@
                                                                         </userDefinedRuntimeAttributes>
                                                                     </view>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STEP 4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H5b-jz-Iwc" userLabel="Step 4">
-                                                                        <rect key="frame" x="0.0" y="20" width="150" height="12"/>
+                                                                        <rect key="frame" x="0.0" y="36" width="150" height="36"/>
                                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
                                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
