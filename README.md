@@ -1,2 +1,2 @@
 # HorizontalTimeline
-Quick demonstration of how to add a horizontal timeline to a view
+I created an `IBDesignable` view which draws a circle and a horizontal line running through the middle of it.
