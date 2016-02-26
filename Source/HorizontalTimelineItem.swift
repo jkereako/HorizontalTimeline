@@ -9,7 +9,7 @@
 import UIKit
 
 /// Creates a circle with a horizontal line running through the middle of it.
-@IBDesignable class CircleView: UIView {
+@IBDesignable class HorizontalTimelineItem: UIView {
   // Circle
   @IBInspectable var diameter: CGFloat = 50.0
   @IBInspectable var strokeWidth: CGFloat = 2.0

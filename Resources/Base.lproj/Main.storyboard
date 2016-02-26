@@ -32,7 +32,7 @@
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="MRw-kO-Ocd" userLabel="Step 1">
                                                                 <rect key="frame" x="0.0" y="0.0" width="150" height="72"/>
                                                                 <subviews>
-                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PKI-03-sX8" customClass="CircleView" customModule="HorizontalTimeline" customModuleProvider="target">
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PKI-03-sX8" customClass="HorizontalTimelineItem" customModule="HorizontalTimeline" customModuleProvider="target">
                                                                         <rect key="frame" x="0.0" y="0.0" width="150" height="36"/>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                         <userDefinedRuntimeAttributes>
@@ -67,7 +67,7 @@
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="5iP-3h-sPk" userLabel="Step 2">
                                                                 <rect key="frame" x="150" y="0.0" width="150" height="72"/>
                                                                 <subviews>
-                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TyT-ya-2ci" customClass="CircleView" customModule="HorizontalTimeline" customModuleProvider="target">
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TyT-ya-2ci" customClass="HorizontalTimelineItem" customModule="HorizontalTimeline" customModuleProvider="target">
                                                                         <rect key="frame" x="0.0" y="0.0" width="150" height="36"/>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                         <userDefinedRuntimeAttributes>
@@ -102,7 +102,7 @@
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="7co-Gz-lui" userLabel="Step 3">
                                                                 <rect key="frame" x="300" y="0.0" width="150" height="72"/>
                                                                 <subviews>
-                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u7g-Z6-EqI" customClass="CircleView" customModule="HorizontalTimeline" customModuleProvider="target">
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u7g-Z6-EqI" customClass="HorizontalTimelineItem" customModule="HorizontalTimeline" customModuleProvider="target">
                                                                         <rect key="frame" x="0.0" y="0.0" width="150" height="36"/>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                         <userDefinedRuntimeAttributes>
@@ -137,7 +137,7 @@
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="snN-Po-mnI" userLabel="Step 4">
                                                                 <rect key="frame" x="450" y="0.0" width="150" height="72"/>
                                                                 <subviews>
-                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tSY-dS-hs3" customClass="CircleView" customModule="HorizontalTimeline" customModuleProvider="target">
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tSY-dS-hs3" customClass="HorizontalTimelineItem" customModule="HorizontalTimeline" customModuleProvider="target">
                                                                         <rect key="frame" x="0.0" y="0.0" width="150" height="36"/>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                         <userDefinedRuntimeAttributes>
