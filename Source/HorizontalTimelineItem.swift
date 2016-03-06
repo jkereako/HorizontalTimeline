@@ -35,7 +35,8 @@ import UIKit
     shapeLayer.strokeColor = strokeColor.CGColor
     shapeLayer.lineWidth = strokeWidth
     shapeLayer.position = CGPoint(
-      x: bounds.width / 2.0 - (diameter / 2.0), y: bounds.height / 2.0 - (diameter / 2.0)
+      x: CGRectGetMidX(bounds) - (diameter / 2.0),
+      y: CGRectGetMidY(bounds) - (diameter / 2.0)
     )
 
     return shapeLayer
