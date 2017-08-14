@@ -22,6 +22,8 @@ final class HorizontalTimelineItem: UIView {
     @IBInspectable var lineColor: UIColor = .clear
 
     override func draw(_ rect: CGRect) {
+        super.draw(rect)
+
         layer.addSublayer(lineLayer())
         layer.addSublayer(circleLayer())
     }
@@ -33,7 +35,8 @@ private extension HorizontalTimelineItem {
         let shapeLayer = CAShapeLayer()
 
         shapeLayer.path = UIBezierPath(
-            ovalIn: CGRect(x: 0, y: 0, width: diameter, height: diameter)).cgPath
+            ovalIn: CGRect(x: 0, y: 0, width: diameter, height: diameter)
+            ).cgPath
 
         shapeLayer.fillColor = fillColor.cgColor
         shapeLayer.strokeColor = strokeColor.cgColor
